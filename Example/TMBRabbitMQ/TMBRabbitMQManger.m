@@ -13,6 +13,7 @@
 -(void)testPrint:(NSString *)printStr
 {
     NSLog(@"TMBRabbitMQManger_test---%@",printStr);
+    NSLog(@"-----------------------%@",printStr);
 }
 
 @end
