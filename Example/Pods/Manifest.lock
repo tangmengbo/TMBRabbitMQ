@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TMBRabbitMQ (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TMBRabbitMQ (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TMBRabbitMQ:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TMBRabbitMQ: 21c4de1ea14243b4db89b34bc839ef645784e139
+
+PODFILE CHECKSUM: 090ed8bb211d4719346155763f8e215f8ee13946
+
+COCOAPODS: 1.10.0

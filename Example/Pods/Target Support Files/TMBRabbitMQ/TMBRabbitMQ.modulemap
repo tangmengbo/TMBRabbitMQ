@@ -1,0 +1,6 @@
+framework module TMBRabbitMQ {
+  umbrella header "TMBRabbitMQ-umbrella.h"
+
+  export *
+  module * { export * }
+}

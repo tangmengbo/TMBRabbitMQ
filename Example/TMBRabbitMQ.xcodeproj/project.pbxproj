@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285B251826A2C8F700EB41D7 /* TMBRabbitMQManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B251726A2C8F700EB41D7 /* TMBRabbitMQManger.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,8 +39,10 @@
 
 /* Begin PBXFileReference section */
 		0D64B1C16ACF76DFB487EE14 /* Pods-TMBRabbitMQ_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMBRabbitMQ_Tests.release.xcconfig"; path = "Target Support Files/Pods-TMBRabbitMQ_Tests/Pods-TMBRabbitMQ_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		118445792D664392929B3A38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		11E53C92E6826B60207E8A9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		118445792D664392929B3A38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		11E53C92E6826B60207E8A9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		285B251626A2C8F700EB41D7 /* TMBRabbitMQManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBRabbitMQManger.h; sourceTree = "<group>"; };
+		285B251726A2C8F700EB41D7 /* TMBRabbitMQManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBRabbitMQManger.m; sourceTree = "<group>"; };
 		4396EE7334DA17B30E736AFA /* Pods_TMBRabbitMQ_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMBRabbitMQ_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TMBRabbitMQ_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMBRabbitMQ_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +68,7 @@
 		8CD6A5214341E9EBE53EC495 /* Pods-TMBRabbitMQ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMBRabbitMQ_Example.release.xcconfig"; path = "Target Support Files/Pods-TMBRabbitMQ_Example/Pods-TMBRabbitMQ_Example.release.xcconfig"; sourceTree = "<group>"; };
 		96023521D78E9C503485E801 /* Pods-TMBRabbitMQ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMBRabbitMQ_Example.debug.xcconfig"; path = "Target Support Files/Pods-TMBRabbitMQ_Example/Pods-TMBRabbitMQ_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DEFA7C786B16F6AF3056F757 /* Pods_TMBRabbitMQ_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMBRabbitMQ_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0DC47CC0CD05FCD2DB229E7 /* TMBRabbitMQ.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TMBRabbitMQ.podspec; path = ../TMBRabbitMQ.podspec; sourceTree = "<group>"; };
+		E0DC47CC0CD05FCD2DB229E7 /* TMBRabbitMQ.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMBRabbitMQ.podspec; path = ../TMBRabbitMQ.podspec; sourceTree = "<group>"; };
 		F7D5999AEF646C26B9D560CB /* Pods-TMBRabbitMQ_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMBRabbitMQ_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TMBRabbitMQ_Tests/Pods-TMBRabbitMQ_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* JCAppDelegate.h */,
 				6003F59D195388D20070C39A /* JCAppDelegate.m */,
+				285B251626A2C8F700EB41D7 /* TMBRabbitMQManger.h */,
+				285B251726A2C8F700EB41D7 /* TMBRabbitMQManger.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JCViewController.h */,
 				6003F5A6195388D20070C39A /* JCViewController.m */,
@@ -193,7 +198,6 @@
 				F7D5999AEF646C26B9D560CB /* Pods-TMBRabbitMQ_Tests.debug.xcconfig */,
 				0D64B1C16ACF76DFB487EE14 /* Pods-TMBRabbitMQ_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -384,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* JCAppDelegate.m in Sources */,
+				285B251826A2C8F700EB41D7 /* TMBRabbitMQManger.m in Sources */,
 				6003F5A7195388D20070C39A /* JCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -1,0 +1,22 @@
+{
+  "name": "TMBRabbitMQ",
+  "version": "0.1.0",
+  "summary": "A short description of TMBRabbitMQ.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tangmengbo/TMBRabbitMQ",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tangmengbo": "251974230@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tangmengbo/TMBRabbitMQ.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TMBRabbitMQ/Classes/**/*"
+}
